@@ -1,0 +1,5 @@
+- gets a url that points at a websites JS page. Parse the JS and look for DOM XSS sinks and/or looks for secrets in the JS file (credentials, api keys ...), also add JSON parser
+    * include cmd line arg to control the certainty of the secrets found / the amount of secrets returned, url or file inputs
+
+-  create python to control the backend of my website. Interface w the DB and add new form submissions to the DB 
+
